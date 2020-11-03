@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ProductDetail from "../../Containers/ProductDetail";
+import ProductDetail from "../../observers/ProductDetail";
 export default function CartTable({ cart }) {
   return (
     <>
