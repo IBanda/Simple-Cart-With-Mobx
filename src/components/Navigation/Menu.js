@@ -1,5 +1,5 @@
 import React from "react";
-import Cart from "../../Containers/Cart";
+import Cart from "../../observers/Cart";
 import { Link } from "react-router-dom";
 export default function Menu() {
   return (

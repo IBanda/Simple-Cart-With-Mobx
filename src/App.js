@@ -1,5 +1,5 @@
 import React from "react";
-import Shop from "./Containers/Shop/Shop";
+import Shop from "./observers/Shop/Shop";
 import "./static/styles.css";
 export default function App() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import propTypes from "prop-types";
+import PropTypes from "prop-types";
 export default function CartTotals({ subTotal, shipping }) {
   return (
     <>
@@ -37,6 +37,6 @@ export default function CartTotals({ subTotal, shipping }) {
 }
 
 CartTotals.propTypes = {
-  subTotal: propTypes.number,
-  shipping: propTypes.number
+  subTotal: PropTypes.number,
+  shipping: PropTypes.number
 };

@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom";
 import React, { useEffect, useRef } from "react";
-import CartDetails from "../../Containers/CartDetails";
+import CartDetails from "../../observers/CartDetails";
 
 export default function CartModal(props) {
   const elementRef = useRef(null);
